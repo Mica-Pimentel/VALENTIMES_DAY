@@ -56,7 +56,6 @@ header h1 {
   transform: translateX(-50%);
   z-index: -1; /* Garante que a linha fique atrás dos elementos da section */
 
-
 ul {
   display: grid;
   gap: 2rem;
@@ -96,6 +95,8 @@ li img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--cor-texto-principal);
 }
 
 #conteinerVideo > video {

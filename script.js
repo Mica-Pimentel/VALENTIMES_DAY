@@ -3,7 +3,7 @@ function startVideoFromCam() {
     video: {
       // Use "environment" for rear camera on mobile devices
       width: { ideal: window.innerWidth * 0.8 }, // 80% da largura da tela
-      height: { ideal: 300 }, // 300px de altura
+      height: { ideal: 400 }, // 400px de altura
     },
   };
   navigator.mediaDevices
